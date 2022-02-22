@@ -6,3 +6,6 @@ ELL319 Term Paper - Predictive Modeling for Identifying the Human Brain Developm
 - extract and replace 'data' folder with 'real data' folder on your system
 - neuro.m is the main MATLAB file
     - will have to install addn. toolboxes on PC
+
+Note: neuro.m is only for k-means and finding optimal number of clusters
+Kaggle is for training SVM and predicting abnormality
