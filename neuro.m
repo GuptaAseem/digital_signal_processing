@@ -37,7 +37,7 @@ kmean_data = [apEn transpose(age)];
 % eval = evalclusters(apEn, 'kmeans', 'silhouette', 'KList', 1:6);
 % above is MATLAB built in and gives optimal as k = 3
 
-% below copied from -- https://stackoverflow.com/questions/46473719/optimum-number-of-clusters-in-k-mean-clustering-using-bic-matlab
+% below -- https://stackoverflow.com/questions/46473719/optimum-number-of-clusters-in-k-mean-clustering-using-bic-matlab
 BIC = []; % Bayesian Information Criterion 
 for k=1:9  % number of clusters
     RSS=0;  % residual sum of squares
