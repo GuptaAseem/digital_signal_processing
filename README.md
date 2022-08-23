@@ -1,11 +1,11 @@
-# ELL319_TP
-ELL319 Term Paper - Predictive Modeling for Identifying the Human Brain Developmental Stages
+# ELL319 Term Paper
 
-- maintain the same file structure as this repo
-- add readme or comments for others 
-- extract and replace 'data' folder with 'real data' folder on your system
-- neuro.m is the main MATLAB file
-    - will have to install addn. toolboxes on PC
+### Predictive Modeling for Identifying the Human Brain Developmental Stages
+**Objectives**:
+- Represent each time series by a single statistic i.e. approimate entropy.
+- Determine the number of developmental stages by finding the optimal number of clusters k. (using elbow method)
+- Perform k-means clustering to determine the optimal age boundaries.
+- Develop an SVM model to predict developmental stage taking fMRI data as input.
+- Improve model using stratified split, PCA and, grid search.
 
-Note: neuro.m is only for k-means and finding optimal number of clusters
-Kaggle is for training SVM and predicting abnormality
+**Data**: Resting state fMRI data of 1096 healthy patients. The data is pre-processed to obtain the BOLD activation time series corresponding to each voxel region (160) of the brain. (160 * 190 data matrix for each patient)
